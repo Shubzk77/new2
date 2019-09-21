@@ -1,0 +1,64 @@
+<html>
+<script type="text/javascript">
+function sub()
+{
+if(document.getElementById("t1").value == "")
+alert("Please enter your name!");
+else if(document.getElementById("t2").value == "")
+alert("Please enter a password!");
+else if(document.getElementById("t2").value != document.getElementById("t3").value)
+alert("Please enter correct password!");
+else if(document.getElementById("t4").value == "")
+alert("Please Enter Your Last Name!");
+else if(document.getElementById("t5").value == "")
+alert("Please enter your Contact Number!");
+else if(document.getElementById("t6").value == "")
+alert("Please enter your Address!");
+else if(document.getElementById("t7").value == "")
+alert("Please enter Landmark!");
+
+else
+alert("Thank You for regestration please click on Ok to go login");
+}
+</script>
+<body bgcolor="cian">
+
+
+	<table align="center" cellspacing="30">
+		
+	<th><h1>Registration Form:</h1></th>
+        <tr>
+        <form method="post" action="Bill.php">
+	<td> 	First Name:</td> <td><input type="text" name="fname" id="t1"></td>
+	</tr>
+	<tr>
+	<td>
+    Last Name: </td><td><input type="text" name="lname" id="t4"></td>
+	</tr>
+	<tr>
+	<td>
+    Contact	No. :</td> <td><input type="text" name="cnt" maxlength=10 id="t5"></td>
+	</tr>
+	<tr>
+   	<td>  	Address : </td><td><input type="textarea" name="add1" id="t6"></td>
+	</tr>
+	<tr>
+	<td>  	Landmark: </td> <td><input type="text" name="add2" id="t7"></td>
+	</tr>
+	<tr>
+	<td>	Password: </td> <td> <input type="password" name="pas1" id="t2"></td>
+	</tr>
+	<tr>
+	<td> Confirm Password: </td> <td> <input type="password" name="pas2" id="t3"></td>
+	</tr>
+	 <tr>
+	<td align="center">	
+        <input type="submit" name="submit" value="Submit" onclick="sub()">
+	<input type="reset" name="Reset" value="Reset"></td>
+	</tr>
+</font>
+</table>  
+</body>
+</form>
+
+    

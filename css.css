@@ -1,0 +1,159 @@
+.header{
+border-radius:20px;
+float:top;
+background:faintblue;
+text-align:center;
+width:100%;
+height:15%;
+border:solid;
+border-color:white;
+border-width:10px;
+margin-bottom:30px;
+
+}
+.side{
+	border-radius:20px;
+	float:left;
+	width:10%;
+	text-align:center;
+	border-color:white;
+	padding-top:35px;
+	padding-left:45px;
+	display:block;
+	border:solid;
+	border-width:10px;
+	border-color:white;
+	text-decoration: none;
+}
+.side2{
+	border-radius:20px;
+	border-color:white;
+	float:right;
+	width:30%;
+	text-align:center;
+	margin-left:30px;
+	padding-top:0px;
+	padding-left:0px;
+	display:block;
+	border:solid;
+	border-color:black;
+	text-decoration: none;
+}
+.content{
+	border-radius:20px;
+	float:right;
+	width:80%;
+	padding-left:35px;
+
+	padding-top:35px;
+	
+	display:block;
+	border:solid;
+	border-color:white;
+	border-width:10px;
+	border-bottom: 1px dashed;
+	background-color:skyblue;
+}
+.content2{
+	float:left;
+	width:60%;
+	margin-left:30px;
+	padding-top:35px;
+	display:block;
+	/*border:solid;*/
+	border-color:white;
+	border-bottom: 1px dashed;
+	background-color:skyblue;
+}
+.box{
+width:95%;
+height:40%;
+margin-top:0px;
+padding-top:0px;
+padding-left:30px;
+padding-right:30px;
+/*border:solid;*/
+}
+.box2{
+width:95%;
+height:40%;
+margin-top:20px;
+padding-top:0px;
+padding-left:30px;
+padding-right:30px;
+/*border:solid;*/
+}
+.box3{
+
+width:95%;
+height:40%;
+margin-top:20px;
+padding-top:0px;
+padding-left:30px;
+padding-right:30px;
+/*border:solid;*/
+}
+
+.box4{
+width:60%;
+height:30%;
+margin-left:70px;
+margin-right:70px;
+float:center;
+}
+.box6{
+width:100%;
+height:10%;
+display:block;
+
+}
+.box5{
+border-radius:20px;
+float:center;
+width:30%;
+height:55%;
+margin-top:10%;
+border:solid;
+margin-left:30%;
+text-align:center;
+background:skyblue;
+}
+#menu {
+	clear: both;
+	width: 940px;
+	height: 40px;
+	float:left;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#menu ul li a {
+	
+	text-align:center;
+	width: 100px;
+	height: 30px;
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	color: #d2902c;	
+	text-align: center;
+	text-decoration: none;
+	
+	outline: none;
+	border: none;
+}
+
+#menu ul li a:hover, #menu ul .current {
+	color: #ffd400;
+	
+}
+

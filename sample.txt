@@ -1,0 +1,145 @@
+<html>
+<head> Jewellary Shop Management </head>
+<body>
+
+
+</body>
+</html>
+
+
+
+
+
+find code
+
+
+$cursor = $collection->find();
+
+
+    $num_docs = $cursor->count();
+
+if( $num_docs > 0 )
+    {
+        // loop over the results for check each record
+        foreach ($cursor as $obj)
+        {
+
+echo "<br>";
+            echo 'first name: ' . $obj['fsname'] ;
+echo "<br>";
+            echo 'last name: ' . $obj['lsname'] ;
+echo "<br>";
+             echo 'Contact: ' . $obj['mob'] ;
+echo "<br>";
+             echo 'Address Line 1: ' . $obj['ad'] ;
+echo "<br>";
+             echo 'Address Line 2: ' . $obj['ad2'] ;
+echo "<br>";
+echo "<br>";
+             echo 'Purchased Item: ' . $obj['item'] ;
+
+            
+        }
+    }
+    else
+    {
+        
+        echo "No products found \n";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$cursor = $collection->find();
+
+    $num_docs = $cursor->count();
+
+if( $num_docs > 0 )
+    {
+      
+        foreach ($cursor as $obj)
+        {
+
+echo "<br>";
+            echo 'First name: ' . $obj['a1'] ;
+echo "<br>";
+            echo 'Last name: ' . $obj['a2'] ;
+echo "<br>";
+             echo 'Contact: ' . $obj['a3'] ;
+echo "<br>";
+             echo 'Address: ' . $obj['a4'] ;
+echo "<br>";
+             echo 'Purchase Item: ' . $obj['a5'] ;
+echo "<br>";
+echo "<br>";
+             echo 'Quantity: ' . $obj['a6'] ;
+
+            
+        }
+    }
+    else
+    {
+        
+        echo "No products found \n";
+    }
+
+
+ 
+
+  
+
